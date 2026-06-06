@@ -2,7 +2,7 @@
 title: Teacher Assistant Applied Statistics
 organization: "Course: [Applied Statistics](https://unitn.coursecatalogue.cineca.it/af/2027?corso=0712G&annoOrdinamento=2025&pds=P0007&coorte=2025&ad=150046&linguaCC=en), University of Trento - Trento, Italy"
 
-start: 2024-11
+start: 2024-10
 end: 2025-01
 ---
 

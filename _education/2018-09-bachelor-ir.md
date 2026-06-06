@@ -5,7 +5,19 @@ location: "Bologna, Italy"
 order: 3
 start: "September 2018"
 end: "March 2022"
-minor: "Business: microeconomics, macroeconomics, financial tools, business strategy, elements of commercial law"
+
+description : Minor: "Business" 
+
+courses: 
+    - "Microeconomics"
+    - "Macroeconomics" 
+    - "Financial tools"
+    - "Business strategy"
+    - "Elements of commercial law"
+    - "Political science"
+    - "Statistics"
+    - "Statistics for social research" 
+
 layout: education
 ---
 
