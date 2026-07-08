@@ -11,42 +11,40 @@ nav_order: 5
 {% assign educations = site.education | sort: "order" %}
 
 {% for edu in educations %}
+<div class="education-entry">
+  <h2>{{ edu.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
 
-## {{ edu.title }}
+  <p>
+    <strong>{{ edu.school }}{% if edu.location %} — {{ edu.location }}{% endif %}</strong><br>
+    {{ edu.start }} – {{ edu.end }}
+  </p>
 
-**{{ edu.school }}{% if edu.location %} — {{ edu.location }}{% endif %}**  
-{{ edu.start }} – {{ edu.end }}
+  {% if edu.graduation %}
+  <p>{{ edu.graduation }}</p>
+  {% endif %}
 
-{% if edu.graduation %}
-{{ edu.graduation }}
-{% endif %}
+  {% if edu.description %}
+  <p>{{ edu.description }}</p>
+  {% endif %}
 
-{% if edu.description %}
-{{ edu.description }}
-{% endif %}
+  {% if edu.courses %}
+  <h3>Courses</h3>
+  <ul>
+    {% for c in edu.courses %}<li>{{ c }}</li>{% endfor %}
+  </ul>
+  {% endif %}
 
-{% if edu.courses %}
-### Courses
-<ul>
-{% for c in edu.courses %}
-<li>{{ c }}</li>
-{% endfor %}
-</ul>
-{% endif %}
+  {% if edu.minor %}
+  <p>Minor: {{ edu.minor }}</p>
+  {% endif %}
 
-{% if edu.minor %}
-Minor: {{ edu.minor }}
-{% endif %}
+  {% if edu.projects %}
+  <h3>Activities</h3>
+  <ul>
+    {% for p in edu.projects %}<li>{{ p }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</div>
 
-{% if edu.projects %}
-### Activities
-<ul>
-{% for p in edu.projects %}
-<li>{{ p }}</li>
-{% endfor %}
-</ul>
-{% endif %}
-
----
-
+{% unless forloop.last %}<hr>{% endunless %}
 {% endfor %}
