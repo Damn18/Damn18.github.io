@@ -15,8 +15,8 @@ nav_order: 5
   <h2>{{ edu.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
 
   <p>
-    <strong>{{ edu.school }}{% if edu.location %} — {{ edu.location }}{% endif %}</strong><br>
-    {{ edu.start }} – {{ edu.end }}
+    <strong>{{ edu.school }}{% if edu.location %} - {{ edu.location }}{% endif %}</strong><br>
+    {{ edu.start }} - {{ edu.end }}
   </p>
 
   {% if edu.graduation %}
