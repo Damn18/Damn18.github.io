@@ -1,5 +1,5 @@
 ---
-title: Professional Rugby Player
+title: Professional rugby player
 organization: "[Accademia Zonale Federazione Italiana Rugby](https://federugby.it/il-progetto-di-fomrazione-alto-livello/) — Brescia, Italy"
 
 start: 2015-09

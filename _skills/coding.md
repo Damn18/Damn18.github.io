@@ -6,22 +6,22 @@ text: |
 
   **Programming**
 
-  Bash, Python, R, STATA, CSS, Javascript (basic), C (basic)
+  Bash, Python, R, STATA, CSS, C, Javascript
   
   **Developer Tools**
 
-  Git, VSC, Cursor, Dask, Kafka, Docker, Apptainer/Singularity, FastAPI, Linux/Unix environment, HPC environment (Slurm), Openrouter
+  Git, GitHub (actions), GitLab (CI/CD), VSC, Cursor, PyCharm, Colab, Kafka, Docker, Apptainer/Singularity, FastAPI, Swagger / OpenAPI, Linux/Unix environment, HPC environment (Slurm), Openrouter, Label Studio, Weights & Biases, Grafana
 
-  **Databases**
+  **Database**
 
-  PostgreSQL, MongoDB, MySQL
+  PostgreSQL, MySQL, SQLite, MongoDB, Redis, Apache Spark, PySpark
 
   **Libraries**
 
-  NumPy, Pandas, SciPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels, NetworkX, PyTorch, TensorFlow, Keras, XGBoost, LightGBM, Hugging Face Transformers, LangChain, OpenAI API, vLLM, SentenceTransformers, Bertopic
-
+  Pandas, NumPy, SciPy, Statsmodels, Dask, Matplotlib, Seaborn
+  OpenCV, Albumentations, scikit-image, YOLO, PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, LightGBM, Hugging Face Transformers, LangChain, Ollama, OpenAI API, vLLM
  
   **Cloud**
 
-  GCP, AWS, Microsoft Azure
+  Azure, Azure Storage, AWS, SageMaker, Google Cloud Storage
 ---
