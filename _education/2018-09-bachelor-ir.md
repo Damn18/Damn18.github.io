@@ -6,12 +6,12 @@ order: 3
 start: "September 2018"
 end: "March 2022"
 
-description : Minor: "Business" 
+description : "Minor: Economics" 
 
 courses: 
     - "Microeconomics"
     - "Macroeconomics" 
-    - "Financial tools"
+    - "Finance and market tools"
     - "Business strategy"
     - "Elements of commercial law"
     - "Political science"

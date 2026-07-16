@@ -11,7 +11,7 @@ nav_order: 4
 
 {% for skill in skills %}
 
-## {{ skill.title }}
+<h2>{{ skill.title }}</h2>
 
 {% if skill.items %}
 <ul>
