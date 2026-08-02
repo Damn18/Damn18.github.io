@@ -20,7 +20,9 @@ The `_scripts/` directory contains JavaScript files that provide frontend functi
 - **Purpose:** Generates searchable navigation data for the Ninja-keys search component
 - **Type:** Liquid + JavaScript hybrid (Jekyll processes `.liquid.js` files)
 - **Output:** Compiled to `/assets/js/search-data.js` via permalink frontmatter
+
 <!-- - **Content:** Builds `ninja.data` array from site pages, posts, and navigation structure -->
+
 - **Usage:** Included in `_includes/scripts.liquid` and loaded in layouts
 
 ### `photoswipe-setup.js`

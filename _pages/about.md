@@ -12,9 +12,7 @@ profile:
     <p>Originally from Brescia, Italy. </p>
     <p>Currently living in Copenhagen, Denmark.</p>
 
-
 social: true # includes social icons at the bottom of the page
-
 ---
 
 My background started with applied statistics in economics, and over time it evolved toward data science, and machine learning. During my master’s, I became increasingly interested in how statistical and computational methods can be combined to build more advanced models and scalable data-driven systems.

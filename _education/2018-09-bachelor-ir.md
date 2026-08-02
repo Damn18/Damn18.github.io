@@ -6,18 +6,17 @@ order: 3
 start: "September 2018"
 end: "March 2022"
 
-description : "Minor: Economics" 
+description: "Minor: Economics"
 
-courses: 
-    - "Microeconomics"
-    - "Macroeconomics" 
-    - "Finance and market tools"
-    - "Business strategy"
-    - "Elements of commercial law"
-    - "Political science"
-    - "Statistics"
-    - "Statistics for social research" 
+courses:
+  - "Microeconomics"
+  - "Macroeconomics"
+  - "Finance and market tools"
+  - "Business strategy"
+  - "Elements of commercial law"
+  - "Political science"
+  - "Statistics"
+  - "Statistics for social research"
 
 layout: education
 ---
-

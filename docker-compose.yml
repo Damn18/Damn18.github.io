@@ -19,7 +19,6 @@
 #     environment:
 #       - JEKYLL_ENV=development
 
-
 services:
   jekyll:
     build:

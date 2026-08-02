@@ -6,7 +6,7 @@ start: 2015-09
 end: 2017-09
 ---
 
-I was selected for the **Federazione Italiana Rugby high-performance training academy**, a two-year program designed to develop athletes with national-level potential. 
+I was selected for the **Federazione Italiana Rugby high-performance training academy**, a two-year program designed to develop athletes with national-level potential.
 
 The program involved a college-like training environment with intensive physical preparation, tactical development, and competitive play aimed at preparing athletes for potential participation in national team pathways.
 

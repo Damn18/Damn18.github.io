@@ -7,7 +7,7 @@ first_name: Damiano
 middle_name:
 last_name: Orlandi
 email: damn251945@gmail.com
-description: Personal web page 
+description: Personal web page
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -306,13 +306,13 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 # scholar:
-#   last_name: 
-#   first_name: 
+#   last_name:
+#   first_name:
 
 #   style: apa
 #   locale: en
 
-#   source: 
+#   source:
 #   bibliography:
 #   bibliography_template:
 #   # Note: if you have latex math in your bibtex, the latex filter

@@ -19,26 +19,26 @@ nav_order: 5
     {{ edu.start }} - {{ edu.end }}
   </p>
 
-  {% if edu.graduation %}
+{% if edu.graduation %}
   <p>{{ edu.graduation }}</p>
   {% endif %}
 
-  {% if edu.description %}
+{% if edu.description %}
   <p>{{ edu.description }}</p>
   {% endif %}
 
-  {% if edu.courses %}
+{% if edu.courses %}
   <h3>Courses</h3>
   <ul>
     {% for c in edu.courses %}<li>{{ c }}</li>{% endfor %}
   </ul>
   {% endif %}
 
-  {% if edu.minor %}
+{% if edu.minor %}
   <p>Minor: {{ edu.minor }}</p>
   {% endif %}
 
-  {% if edu.projects %}
+{% if edu.projects %}
   <h3>Activities</h3>
   <ul>
     {% for p in edu.projects %}<li>{{ p }}</li>{% endfor %}
